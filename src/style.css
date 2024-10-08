@@ -1,0 +1,37 @@
+:root {
+  --nav-height: 50px;
+}
+
+body {
+  margin: 0;
+}
+
+#canvas {
+  width: 100vw;
+  height: calc(100vh - var(--nav-height));
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.nav-bar {
+  height: var(--nav-height);
+  background-color: bisque;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.5rem 0.25rem;
+}
+
+.btn:hover {
+  filter: brightness(0.8);
+}
+
+.btn.active {
+  border: 2px solid red;
+}

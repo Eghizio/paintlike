@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paintlike</title>
+    <style></style>
+  </head>
+  <body>
+    <nav class="nav-bar row">
+      <div class="btns-group row">
+        <button class="btn active" id="mice">Myszka</button>
+        <button class="btn" id="line">Linia</button>
+        <button class="btn" id="rectangle">Prostokąt</button>
+        <button class="btn" id="circle">Okrąg</button>
+
+        <input type="color" name="color" id="color" />
+
+        <p>Wyczyść (Escape)</p>
+      </div>
+
+      <button class="btn" id="download">Pobierz</button>
+    </nav>
+
+    <canvas id="canvas"></canvas>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
